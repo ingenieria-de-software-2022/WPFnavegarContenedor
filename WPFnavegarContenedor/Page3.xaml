@@ -1,0 +1,16 @@
+﻿<Page x:Class="WPFnavegarContenedor.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFnavegarContenedor"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid>
+        <MediaElement x:Name="media2" HorizontalAlignment="Left" Height="197" Margin="346,109,0,0" VerticalAlignment="Top" Width="321" Source="/video.mp4" Volume="0" LoadedBehavior="Play" Stretch="Fill"/>
+        <Button x:Name="buttonPlay2" Content="Button" HorizontalAlignment="Left" Margin="108,208,0,0" VerticalAlignment="Top" Background="Red" Foreground="White" FontSize="16" Click="buttonPlay2_Click"/>
+
+    </Grid>
+</Page>
